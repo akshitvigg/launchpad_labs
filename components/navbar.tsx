@@ -1,22 +1,24 @@
-import Image from "next/image"
-import Link from "next/link"
 
-
+import Image from "next/image";
+import Link from "next/link";
 
 export const Navbar = () => {
-
   return (
-    <div className="bg-[#F3F7F8] font-sans text-[#1f1f1f] flex h-[95px] fixed w-full top-0 left-0 font-bold">
-      <div className="pl-[80px] pt-[18px]">
-        <Image src={"/Logo.png"} alt="logo" width={231} height={42} />
-      </div>
-      <div className="ml-[467px] mt-[34px] space-x-[39px] font-semibold  text-[15px]">
-        <Link href={"/howitworks"}>How It Works</Link>
-        <Link href={"/howitworks"}>Our Work</Link>
-        <Link href={"/howitworks"}>Our Process</Link>
-        <Link href={"/howitworks"}>Founder</Link>
-        <Link href={"/howitworks"}>Pricing</Link>
-      </div>
-    </div>
-  )
-}
+    <header className="fixed top-0 left-0 w-full bg-[#F3F7F8] text-[#1F1F1F] font-sans antialiased z-50">
+      <div className="max-w-[1400px] items-center mx-auto flex h-[95px] px-[55px]">
+        <div className="flex gap-[360px]">
+          <div className="-mt-3">
+            <Image src="/Logo.png" alt="logo" width={231} height={42} priority />
+          </div>
+          <nav className="flex items-center -mt-1 gap-[39px] text-[15px] font-semibold leading-[100%]">
+            <Link href="/howitworks">How It Works</Link>
+            <Link href="/ourwork">Our Work</Link>
+            <Link href="/ourprocess">Our Process</Link>
+            <Link href="/founder">Founder</Link>
+            <Link href="/pricing">Pricing</Link>
+          </nav>
+        </div></div>
+    </header>
+  );
+};
+
