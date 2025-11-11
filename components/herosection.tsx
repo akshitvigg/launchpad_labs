@@ -6,9 +6,9 @@ import { Comp } from "./comp"
 
 export const Hero = () => {
   return (
-    <div className="relative overflow-hidden bg-[#F3F7F8] font-sans h-[897px] pt-[95px]  ">
+    <div className="relative overflow-hidden bg-[#F3F7F8] font-sans h-[1200px] pt-[95px]  ">
 
-      <div className="absolute inset-0 z-0">
+      <div className="absolute top-20 left-8 inset-0 z-0">
         <SideVector />
       </div>
 
@@ -121,7 +121,7 @@ export const Hero = () => {
             <Image src="/cal.png" width={268} height={10} alt="calendar" className="object-contain" />
             <Image src="/time.png" width={268} height={10} alt="calendar" className="object-contain" />
           </div>
-          <div className=" absolute top-54 right-39 "><Comp /> </div>
+          <div className=" absolute top-74 right-39 "><Comp /> </div>
         </div>
 
       </div>
