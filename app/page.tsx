@@ -1,3 +1,4 @@
+import { Calendar } from "@/components/calendar";
 import { Hero } from "@/components/herosection";
 import { Navbar } from "@/components/navbar";
 import { OurApproach } from "@/components/ourapproach";
@@ -18,6 +19,7 @@ export default function Home() {
       <OurApproach />
       <OurProcess />
       <Testimonial />
+      <Calendar />
     </>
 
   )
