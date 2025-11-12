@@ -6,7 +6,7 @@ import { Comp } from "./comp"
 
 export const Hero = () => {
   return (
-    <div className="relative overflow-hidden bg-[#F3F7F8] font-sans h-[1200px] pt-[95px]  ">
+    <div className="relative overflow-hidden bg-[#F3F7F8] font-sans h-[1010px] pt-[95px]  ">
 
       <div className="absolute top-20 left-8 inset-0 z-0">
         <SideVector />
