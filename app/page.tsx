@@ -4,6 +4,7 @@ import { OurApproach } from "@/components/ourapproach";
 import { OurImpact } from "@/components/ourimpact";
 import { OurProcess } from "@/components/ourprocess";
 import { OurWork } from "@/components/ourwork";
+import { Testimonial } from "@/components/testimonials";
 import { WhyLaunchPad } from "@/components/whylanuchpad";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <WhyLaunchPad />
       <OurApproach />
       <OurProcess />
+      <Testimonial />
     </>
 
   )
