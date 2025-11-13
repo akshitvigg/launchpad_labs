@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export const Testimonial = () => {
   return (
-    <div className=" h-[1200px] font-sans bg-white">
+    <div className=" h-[1000px] font-sans bg-white">
       <div className="flex justify-center pt-8">
         <TestimonialIcon />
       </div>
