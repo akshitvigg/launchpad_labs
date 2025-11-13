@@ -21,7 +21,7 @@ export default function Pricing() {
           width={270}
           height={100}
           alt="mostpopular"
-          className="absolute  -translate-y-14 translate-x-76.5 -top-[550] z-0"
+          className="absolute  -translate-y-14 translate-x-76.5  z-0"
         />
         <div className="  w-[401px] border-5 border-[#E8EBEC] h-[594px] bg-[#F5F5F5] rounded-[20px] ">
           <div className=" flex items-center justify-between ml-3 mr-5 ">
