@@ -3,7 +3,7 @@ import Image from "next/image"
 export const Calendar = () => {
 
   return (
-    <div className=" h-[900px] bg-white  font-sans ">
+    <div className=" h-[800px] bg-white  font-sans ">
 
       <p className="font-semibold text-[28px] text-center pt-8 text-[#202020]"> Ready to launch your next big idea? </p>
 

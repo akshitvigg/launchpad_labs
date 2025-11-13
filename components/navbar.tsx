@@ -9,7 +9,7 @@ export const Navbar = () => {
         <div className="flex gap-[360px]">
           {/* Logo */}
           <div className="">
-            <Image src="/Logo.png" alt="logo" width={231} height={42} priority />
+            <Link href={"/"}><Image src="/Logo.png" alt="logo" width={231} height={42} priority /></Link>
           </div>
 
           <nav className="flex items-center -mt-1 gap-[39px] text-[15px] font-semibold leading-[100%] whitespace-nowrap">

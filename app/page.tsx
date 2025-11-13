@@ -11,7 +11,6 @@ import { WhyLaunchPad } from "@/components/whylanuchpad";
 export default function Home() {
   return (
     <>
-      <Navbar />
       <Hero />
       <OurImpact />
       <OurWork />

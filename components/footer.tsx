@@ -8,7 +8,7 @@ import Link from "next/link"
 export const Footer = () => {
 
   return (
-    <div className=" bg-white font-sans h-[512px] text-black ">
+    <div className=" bg-white pt-23 font-sans h-[612px] text-black ">
 
       <div className=" ml-17 flex justify-between mr-18.5 ">
         <div className=" -translate-y-3">
