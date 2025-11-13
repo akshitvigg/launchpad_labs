@@ -5,7 +5,7 @@ export const Calendar = () => {
   return (
     <div className=" h-[800px] bg-white  font-sans ">
 
-      <p className="font-semibold text-[28px] text-center pt-8 text-[#202020]"> Ready to launch your next big idea? </p>
+      <p className="font-semibold text-[28px] text-center pt-16 text-[#202020]"> Ready to launch your next big idea? </p>
 
       <p className="font-medium text-[16px] mt-2 text-center text-[#525252]"> Book a consultation call and let's turn your vision into reality </p>
       <div className="flex justify-center mt-6"><Image src={"/bookcall.png"} width={240} height={100} alt="book call" /></div>

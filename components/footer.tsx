@@ -34,12 +34,12 @@ export const Footer = () => {
           <div><Link className="text-[14px] -2 font-medium text-[#616161]" href={"/"}> Our Process</Link></div>
           <div><Link className="text-[14px] -2 font-medium text-[#616161]" href={"/"}> How We Work</Link></div>
           <div><Link className="text-[14px] -2 font-medium text-[#616161]" href={"/"}> Contact</Link></div>
-          <div><Link className="text-[14px] -2 font-medium text-[#616161]" href={"/"}> FAQs</Link></div>
+          <div><Link className="text-[14px] -2 font-medium text-[#616161]" href={"/FAQs"}> FAQs</Link></div>
           <div><Link className="text-[14px] -2 font-medium text-[#616161]" href={"/"}> Contact</Link></div>
         </div>
         <div className=" space-y-3 ">
           <p className="text-[17px] font-semibold text-black">Portfolio</p>
-          <div><Link className="text-[14px] -2 font-medium text-[#616161]" href={"/"}> Case Studies</Link></div>
+          <div><Link className="text-[14px] -2 font-medium text-[#616161]" href={"/casestudylist"}> Case Studies</Link></div>
           <div><Link className="text-[14px] -2 font-medium text-[#616161]" href={"/"}> Success Stories</Link></div>
           <div><Link className="text-[14px] -2 font-medium text-[#616161]" href={"/"}> MVP Showcase</Link></div>
           <div><Link className="text-[14px] -2 font-medium text-[#616161]" href={"/"}> Testimonial</Link></div>
